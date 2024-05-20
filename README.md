@@ -40,10 +40,20 @@ Siendo este un enfoque bastante versatil para mantener el codigo escalable
 # Estructura de carpetas siguinedo la Arquitectura 
 <img src="screenshots/folders.png" height=350></img>
 
+# Sobre la Autenticacion en la App
+- OpenMeteor maneja todo el flujo de Autenticacion: Login, Registro, Y SignOut.
+- Para poder ingresar a la app debe registrarse, Este flujo es solo `FAKE`. usamos `rxDart` para guardar esa data en la memoria del dispositivo mientras el ciclo de vida de la App esta abierto. una vez se cierra la app debera volver a realizar un registro para poder usarla. adjunto imagenes.
+- Se cumple con todas las validaciones que requireren para formularios de inicio de sesion y contraseñas.
+
+<img src="screenshots/login.png" height=350></img> <img src="screenshots/register.png" height=350></img>
+
+# Unit Testing para Open Meteor
+- Se incluyeron test unitarios en la prueba, no fueron requeridos pero aun asi los entregamos.
+
 # CI-CD para Open Meteor
 - Integracion continua usando github actions: 
-        - Se obtiene un release (`APK`) para pruebas en dispositivos fisicos
-        - Incrementa el numero de releases con cada `PUSH` que enviemos a githbu en la rama `MAIN` 
+- Se obtiene un release (`APK`) para pruebas en dispositivos fisicos
+- Incrementa el numero de releases con cada `PUSH` que enviemos a githbu en la rama `MAIN` 
             
 <img src="screenshots/ci-cd.png" height=500></img>
 

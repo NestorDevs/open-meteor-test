@@ -37,7 +37,7 @@ Utilize la arquitectura basada en caracteristicas (`Features`) propuesta en la s
 
 Siendo este un enfoque bastante versatil para mantener el codigo escalable
 
-# Estructura de carpetas siguinedo la Arquitectura 
+# Estructura de carpetas siguiendo la Arquitectura 
 <img src="screenshots/folders.png" height=350></img>
 
 # Sobre la Autenticacion en la App
@@ -53,7 +53,7 @@ Siendo este un enfoque bastante versatil para mantener el codigo escalable
 # CI-CD para Open Meteor
 - Integracion continua usando github actions: 
 - Se obtiene un release (`APK`) para pruebas en dispositivos fisicos
-- Incrementa el numero de releases con cada `PUSH` que enviemos a githbu en la rama `MAIN` 
+- Incrementa el numero de releases con cada `PUSH` que enviemos a github en la rama `MAIN` 
             
 <img src="screenshots/ci-cd.png" height=500></img>
 

@@ -42,6 +42,13 @@ Siendo este un enfoque bastante versatil para mantener el codigo escalable
 
 # CI-CD para Open Meteor
 - Integracion continua usando github actions: 
-        - Se obtiene un release (`APK`) para pruebas en dispositivos fisicos 
+        - Se obtiene un release (`APK`) para pruebas en dispositivos fisicos
+        - Incrementa el numero de releases con cada `PUSH` que enviemos a githbu en la rama `MAIN` 
             
+<img src="screenshots/ci-cd.png" height=500></img>
 
+# RELEASE ANDROID para Open Meteor
+Fuente: https://github.com/NestorDevs/open-meteor-test/releases
+
+## Captura
+<img src="screenshots/release.png" height=500></img>
